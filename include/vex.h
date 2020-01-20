@@ -24,3 +24,12 @@
 
 #define repeat(iterations)                                                     \
   for (int iterator = 0; iterator < iterations; iterator++)
+
+
+//from template
+extern void hasGreenCallback();
+extern void hasRedCallback();
+extern void hasBlueCallback();
+extern event checkGreen;
+extern event checkRed;
+extern event checkBlue;
